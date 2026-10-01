@@ -1,0 +1,16 @@
+{
+  "name": "pwd-gen",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Joachim Standhartinger",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
