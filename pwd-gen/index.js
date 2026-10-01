@@ -1,8 +1,9 @@
-'use stirct';
+'use strict';
 
-function generatePassword(length) {
-  const chars =
-    'qwertzuiopüasdfghjklöäyxcvbnmQWERTZUIOPÜSDFGHJKLÖÄYXCVBNM1234567890ß!"§$%&/()=?+#-.,;:-';
+function generatePassword(length, withSpecialCharacters = true) {
+  const chars = withSpecialCharacters
+    ? 'qwertzuiopüasdfghjklöäyxcvbnmQWERTZUIOPÜSDFGHJKLÖÄYXCVBNM1234567890ß!"§$%&/()=?+#-.,;:-'
+    : 'qwertzuiopüasdfghjklöäyxcvbnmQWERTZUIOPÜSDFGHJKLÖÄYXCVBNM1234567890';
   let pwd = '';
   for (let i = 0; i < length; i++) {
     const index = Math.floor(Math.random() * chars.length);

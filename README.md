@@ -1,3 +1,3 @@
 # pwdGen
 
-the funktion generates a random password. It takes one param which tells the length of the password.
+The function generates a random password. It takes the password `length` and an optional boolean `withSpecialCharacters` (defaults to `true`).
