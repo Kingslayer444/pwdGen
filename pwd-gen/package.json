@@ -1,6 +1,6 @@
 {
   "name": "@kingslayerchess/pwd-gen",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Zufallspasswort-Generator für die Kommandozeile und als Node.js-Modul.",
   "license": "MIT",
   "author": "Joachim Standhartinger",
